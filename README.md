@@ -1,15 +1,11 @@
-# VFS Shell Emulator (Вариант 6, Этап 1 - REPL)
+# VFS Shell Emulator (Вариант 6, Этапы 1–2)
 
-Прототип эмулятора командной оболочки с графическим интерфейсом на `tkinter`.
+Эмулятор командной оболочки с графическим интерфейсом на `tkinter` и поддержкой параметров командной строки (`--vfs`, `--script`).
 
 ## Запуск
 
 ```bash
 python shell_emulator.py
+python shell_emulator.py --vfs vfs.json --script script_ok.txt
+python shell_emulator.py --vfs vfs.json --script script_error.txt
 ```
-
-## Поддерживаемые команды
-
-- `ls [dir]` - заглушка команды списка файлов
-- `cd <dir>` - заглушка смены директории
-- `exit` - выход из эмулятора
