@@ -1,4 +1,14 @@
 ls
 cd documents
-ls -l
-cd "my folder"
+ls
+cd ..
+cd /level1
+ls
+cd level2
+ls
+cd level3
+ls
+cd /home/user
+ls
+vfs-init
+ls

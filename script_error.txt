@@ -1,4 +1,6 @@
 ls
 cd documents
-cd
 ls
+cd unknown_folder
+ls
+cd /

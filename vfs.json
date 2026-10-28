@@ -1,0 +1,10 @@
+{
+  "/": ["home", "etc", "level1", "readme.txt"],
+  "/home": ["user"],
+  "/home/user": ["documents", "notes.txt"],
+  "/home/user/documents": ["work.txt"],
+  "/level1": ["level2", "file1.txt"],
+  "/level1/level2": ["level3", "file2.txt"],
+  "/level1/level2/level3": ["file3.txt"],
+  "/etc": ["passwd", "shadow"]
+}
